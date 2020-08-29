@@ -77,12 +77,6 @@ WSGI_APPLICATION = 'ChatRoom.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ChatRoom',
-        'USER': 'postgres',
-        'PASSWORD': 'pk8742',
-        'HOST': 'localhost',
-        'PORT': 5432
     }
 }
 
